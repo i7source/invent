@@ -1,13 +1,13 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "lock";
+$password = "yjrlfeybd";
 $dbname = "invent";
 $table = "table_invent";
 
 
 function connect(){
-    $conn = mysqli_connect("localhost", "i7source_invent", "8reihsre4hg2bdc0rt_", "i7source_invent");
+    $conn = mysqli_connect("localhost", "lock", "yjrlfeybd", "i7source_invent");
     $conn->set_charset("utf8");
     if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());

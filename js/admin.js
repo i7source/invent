@@ -23,7 +23,7 @@ authBtn.onclick = function() {
         }, function(data) {
             if(data == 'ok') {
                 //document.location.href = 'http://localhost/invent/';
-                document.location.href = 'http://rf-just.online/invent/';
+                document.location.href = 'http://192.168.58.68/invent/';
             } else {
                 alert(data)
             }

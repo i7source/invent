@@ -360,7 +360,7 @@ let btnExit = document.getElementById('exit')
 btnExit.onclick = function() {
     exit1();
     //document.location.href = 'http://localhost/invent/';
-    document.location.href = 'http://rf-just.online/invent/';
+    document.location.href = 'http://192.168.58.68/invent/';
 
 
 }
@@ -373,7 +373,7 @@ function exit1 () {
             "action" : "exit",
         }, function(data) {
             //document.location.href = 'http://localhost/invent/';
-            document.location.href = 'http://rf-just.online/invent/';
+            document.location.href = 'http://192.168.58.68/invent/';
         }
     )
 }
@@ -382,5 +382,5 @@ function exit1 () {
 let btn_panel = document.getElementById('btn_panel');
 
 btn_panel.onclick = function() {
-    document.location.href = 'http://rf-just.online/invent/panel.php';
+    document.location.href = 'http://192.168.58.68/invent/panel.php';
 }

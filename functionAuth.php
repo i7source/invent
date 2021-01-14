@@ -4,7 +4,7 @@
 // $conn = mysqli_connect("localhost","i51439_invent_us", "8reihsre4hg2bdc0rt", "i51439_auth");
 function connectAuth(){
     //$conn = mysqli_connect("localhost", "root", "", "auth");
-    $conn = mysqli_connect("localhost","i7source_invent", "8reihsre4hg2bdc0rt_", "i7source_invent");
+    $conn = mysqli_connect("localhost","lock", "yjrlfeybd", "i7source_invent");
     $conn->set_charset("utf8");
     if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());

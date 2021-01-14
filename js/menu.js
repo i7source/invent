@@ -176,5 +176,5 @@ btnDel.onclick = function() {
 let btn_panel_exit = document.getElementById('btn_panel_exit');
 
 btn_panel_exit.onclick = function() {
-    document.location.href = 'http://rf-just.online/invent/';
+    document.location.href = 'http://192.168.58.68/invent/';
 }
