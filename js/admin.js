@@ -23,7 +23,7 @@ authBtn.onclick = function() {
         }, function(data) {
             if(data == 'ok') {
                 //document.location.href = 'http://localhost/invent/';
-                document.location.href = 'http://192.168.58.68/invent/';
+                document.location.href = 'http://lockwebserv.vipcg.ru/invent/';
             } else {
                 alert(data)
             }
